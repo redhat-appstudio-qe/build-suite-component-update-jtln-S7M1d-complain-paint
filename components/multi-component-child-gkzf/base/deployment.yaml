@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-gkzf
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-royw-tenant/build-suite-component-update-jtln/multi-component-child-gkzf@sha256:36f54521277ab0d760f7ccffc515812f6e1b5f7c5108383b6005cfe3752209b3
         imagePullPolicy: Always
         name: container-image
         ports:
